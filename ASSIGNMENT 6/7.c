@@ -8,12 +8,14 @@ int main()
     scanf("%d",&n);
     while(n)
     {
-        n=n%10;
-        printf("%d\n",n);
+        n=n/10;
+        count++;
+        
 
 
         
     }
+    printf("%d\n",count);
     
 
 }
